@@ -31,7 +31,7 @@ func main() {
 	flag.StringVar(&dbpath, "dbpath", "search.db", "Database path")
 	flag.StringVar(&title, "title", "Search", "OpenSearch Title")
 	flag.StringVar(&bind, "bind", "0.0.0.0:8000", "[int]:<port> to bind to")
-	flag.StringVar(&fqdn, "fqdn", "localhost", "FQDN for public access")
+	flag.StringVar(&fqdn, "fqdn", "gadget", "FQDN for public access")
 	flag.StringVar(&url, "url", DefaultURL, "default url to redirect to")
 
 	flag.Parse()
